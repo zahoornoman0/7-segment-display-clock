@@ -25,7 +25,7 @@ function setClock() {
 
     unitM = minutes % 10;
     tensM = Math.floor(minutes / 10) % 10;
-    mn1.src = `.1x/d-${tensM}.png`;
+    mn1.src = `./1x/d-${tensM}.png`;
     mn2.src = `./1x/d-${unitM}.png`;
 
     unitS = seconds % 10;
